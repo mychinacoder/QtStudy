@@ -1,0 +1,24 @@
+#ifndef SERVER
+#define SERVER
+
+#include <QObject>
+#include <QTcpServer>
+#include <QTcpSocket>
+#include <QHostAddress>
+
+
+
+
+class Server : public QObject
+{
+    Q_OBJECT
+public:
+    explicit Server(QObject *parent = nullptr);
+
+
+signals:
+
+
+};
+
+#endif // SERVER
